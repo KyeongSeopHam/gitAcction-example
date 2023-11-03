@@ -1,19 +1,14 @@
 {
-  
-  "name": "gitacctiontest",
+  "name": "testSample",
   "version": "1.0.0",
-  "description": "",
+  "description": "프로젝트 설명",
   "main": "index.js",
-  "directories": {
-    "test": "test"
+  "scripts": {
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^29.7.0"
   },
-  "scripts": {
-    "test": "jest"
-  },
-
-  "author": "",
-  "license": "ISC" 
+  "author": "저자명",
+  "license": "라이선스"
 }
