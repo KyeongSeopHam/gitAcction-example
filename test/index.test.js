@@ -8,12 +8,14 @@ it("correctly computes factiorial of a positive integer number", () =>{
 })
 
 
-it('throws an error if a negative input is provided' , () => {
 
-    expect(()=>{
+it('throws an error if a negative input is provided', () => {
+    expect(() => {
         factorial(-1);
-    }).toThrow('Factorial is only defined for non-negative integers !');
+    }).toThrowError('Factorial is only defined for non-negative integers');
 });
+
+
 
 });
 
