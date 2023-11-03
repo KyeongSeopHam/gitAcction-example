@@ -22,7 +22,6 @@ jobs:
 
       - name: Clear npm cache
         run: npm cache clean --force
-      - run: npm install  
-
+      - run: npm install    
       - run: npm ci
       - run: npm test
