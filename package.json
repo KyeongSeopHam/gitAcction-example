@@ -1,17 +1,12 @@
+
 {
-  "name": "testSample",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  },
-  
+  "description": "프로젝트 설명",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
-
-  "jest":{
-    "testEnvironment":"jest-environment-node"
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
-  
 }
