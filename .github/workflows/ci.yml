@@ -16,6 +16,9 @@ jobs:
         with:
           node-version: 14.x
           cache: 'npm'
+
+      - name: Delete node_modules
+        run: rm -rf node_modules
+
       - run: npm ci
-      - run: npm cache clean --force
       - run: npm test
