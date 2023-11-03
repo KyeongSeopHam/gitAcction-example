@@ -20,5 +20,6 @@ jobs:
       - name: Delete node_modules
         run: rm -rf node_modules
 
+      - run: npm update
       - run: npm ci
       - run: npm test
